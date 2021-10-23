@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(59, 130, 246);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 58, 151);
+  }
+  .loader, .load {
+    border: 10px solid transparent;
+    border-left-color: rgba(59, 130, 246);
+    border-right-color: rgba(59, 130, 246);
+    border-top-color: rgba(59, 130, 246);
+    border-radius: 50%;
+  }
