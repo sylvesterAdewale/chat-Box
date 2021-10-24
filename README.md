@@ -1,4 +1,8 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS + Firebase V9
+
+This is a simple chat box for anybody.
+
+check the UX design on figma [`Chat-box`](https://www.figma.com/file/Yfl99ROd1RTlYX8XyJ88oI/Chat-box) for Tailwind CSS.
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
@@ -6,9 +10,9 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## Preview
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+This project as already been deployed temporarily on vercel.
+preview it through this link [`Chat-box`](https://chat-box-topaz.vercel.app)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
 ## Deploy your own
 
@@ -17,6 +21,8 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
 ## How to use
+
+you can also preview it locally;
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
