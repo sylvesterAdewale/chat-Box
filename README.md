@@ -11,7 +11,7 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 ## Preview
 
 This project as already been deployed temporarily on vercel.
-preview it through this link [![Chat-box](https://chat-box-topaz.vercel.app)
+preview it through this link [`Chat-box`](https://chat-box-topaz.vercel.app)
 
 
 ## Deploy your own
