@@ -2,7 +2,7 @@
 
 This is a simple chat box for anybody.
 
-check the UX design on figma [`Chat-box`](https://www.figma.com/file/Yfl99ROd1RTlYX8XyJ88oI/Chat-box) for Tailwind CSS.
+check the UX design on figma [`Chat-box`](https://www.figma.com/file/Yfl99ROd1RTlYX8XyJ88oI/Chat-box)
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
@@ -11,7 +11,7 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 ## Preview
 
 This project as already been deployed temporarily on vercel.
-preview it through this link [`Chat-box`](https://chat-box-topaz.vercel.app)
+preview it through this link [![Chat-box](https://chat-box-topaz.vercel.app)
 
 
 ## Deploy your own
