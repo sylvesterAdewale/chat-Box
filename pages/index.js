@@ -23,7 +23,7 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen bg-gray-900 text-blue-400">
+    <div className="min-h-screen bg-black text-blue-400">
       <Head>
         <title>Chat Wall</title>
         <link rel="icon" href="/favicon.ico" />
