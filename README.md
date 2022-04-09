@@ -15,6 +15,8 @@ preview it through this link [`Chat-box`](https://chat-box-topaz.vercel.app)
 ## Install locally
 
 Clone this Repo
+
 run "yarn" or "npm install"
+
 then "yarn dev" or "npm run dev"
 
