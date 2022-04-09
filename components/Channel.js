@@ -71,9 +71,9 @@ const AlwaysScrollToBottom = () => {
         className="p-3 mb-8 border-blue-500 border-2 rounded-b-lg w-10/12 md:w-7/12 h-4/6 absolute bottom-3 flex flex-col align-bottom overflow-hidden rounded-lg">
             <ul className="flex flex-grow overflow-y-auto w-full flex-col mb-10">
                 {messages.map(message => (
-                <div className="w-full">
+                <div className="w-full" key={message.id}>
                     {(user.uid !== message.uid) ? 
-                     <div key={message.id} className="flex items-center p-2">
+                     <div className="flex items-center p-2">
                     {message.photoURL ? (
                     <img src={message.photoURL} className="rounded-full object-cover" alt="avatar" width={40} height={40} />
                     ) : null}
@@ -85,7 +85,6 @@ const AlwaysScrollToBottom = () => {
                                 {formatRelative(new Date(message.createdAt.seconds * 1000), new Date())}
                             </span>
                         ) : null } 
-                        <AlwaysScrollToBottom />
                     </div>
                     </div>
                     : <div key={message.id} className="flex items-center justify-end p-2 w-full">
@@ -97,7 +96,6 @@ const AlwaysScrollToBottom = () => {
                                         {formatRelative(new Date(message.createdAt.seconds * 1000), new Date())}
                                     </span>
                                 ) : null } 
-                                <AlwaysScrollToBottom />
                             </div>
                             {message.photoURL ? (
                                 <img src={message.photoURL} className="rounded-full object-cover" alt="avatar" width={40} height={40} />
@@ -107,6 +105,7 @@ const AlwaysScrollToBottom = () => {
                  }
                 </div>
                 ))}
+                <AlwaysScrollToBottom />
             </ul>
             <form className="flex gap-2 absolute bottom-2 self-center" onSubmit={handleSubmit}>
                 <input ref={messageRef} className="p-2 md:w-96 bg-transparent outline-none border-blue-500 border-2 rounded-lg placeholder-blue-400 placeholder-opacity-60" type="text" placeholder="Enter Message" />
