@@ -85,7 +85,7 @@ export function AuthProvider({ children }) {
                 db
             }
         return (
-            <AuthContext.Provider value={ value }>
+        <AuthContext.Provider value={ value }>
             {inits && <Loading />}
             {!inits && children }
         </AuthContext.Provider>
